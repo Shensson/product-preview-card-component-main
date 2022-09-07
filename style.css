@@ -4,6 +4,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card{
@@ -50,6 +51,7 @@ p{
 .prices{
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 .actual-price{
   font-family: 'Fraunces', serif;
